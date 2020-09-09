@@ -57,6 +57,7 @@ public class GetValueFromSensorActivity extends AppCompatActivity implements Sen
         // sensorEvent object includes important properties of the event, such as which sensor is reporting new data and new data values.
         // both light and proximity sensors only report one value, in Values[0]
         // accelerometer reports data for the x-axis,y-axis and z-axis for every change in the values[0],values[1] and values[2]
+        // light and proximitt sensor
         int sensorType = sensorEvent.sensor.getType();
         float currentValue = sensorEvent.values[0];
 
